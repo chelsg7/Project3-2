@@ -4,11 +4,9 @@
 #navText {
     font-family: 'Righteous', cursive;
     margin: auto;
+    color: limegreen;
 }
 
-#contain {
-    width: 80vw;
-}
 
 #drop{
     margin: auto;
