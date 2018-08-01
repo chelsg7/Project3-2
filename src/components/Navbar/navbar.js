@@ -207,11 +207,11 @@ class Navbar2 extends Component {
                 <DropdownItem divider />
                     <DropdownItem>
                       <NavItem>
-                        <NavLink href="/browse">
+                        <Link href="/browse">
                           <span id="navText">
                             Browse
                           </span>
-                        </NavLink>
+                        </Link>
                       </NavItem>
                     </DropdownItem>
                     <DropdownItem>
