@@ -161,31 +161,31 @@ class Navbar2 extends Component {
                 {loggedIn ? (
                   <section className="float-left">
                     <NavItem>
-                      <NavLink href="#" id="navText" onClick={this.logout}>
+                      <Link to="#" id="navText" onClick={this.logout}>
                         {/* <span className="text-success"> */}
                         Logout
                         {/* </span> */}
-                      </NavLink>
+                      </Link>
                     </NavItem>
                   </section>
                 ) : (
                   <section>
                     <section className="float-left">
                       <NavItem>
-                        <NavLink href="/login" id="navText">
+                        <Link to="/login" id="navText">
                           {/* <span id="navText" className="text-success"> */}
                             Login
                           {/* </span> */}
-                        </NavLink>
+                        </Link>
                       </NavItem>
                     </section>
                     <section className="float-right">
                       <NavItem>
-                        <NavLink href="/signup" id="navText">
+                        <Link to="/signup" id="navText">
                           {/* <span id="navText" className="text-success"> */}
                             Sign Up
                           {/* </span> */}
-                        </NavLink>
+                        </Link>
                       </NavItem>
                     </section>
                   </section>
@@ -207,38 +207,38 @@ class Navbar2 extends Component {
                 <DropdownItem divider />
                     <DropdownItem>
                       <NavItem>
-                        <NavLink href="/browse" id="navText">
-                          {/* <span id="navText"> */}
+                        <NavLink href="/browse">
+                          <span id="navText">
                             Browse
-                          {/* </span> */}
+                          </span>
                         </NavLink>
                       </NavItem>
                     </DropdownItem>
                     <DropdownItem>
                       <NavItem>
-                        <NavLink href="/profile" id="navText">
-                          {/* <span id="navText"> */}
+                        <Link to="/profile">
+                          <span id="navText">
                             Profile
-                          {/* </span> */}
-                        </NavLink>
+                          </span>
+                        </Link>
                       </NavItem>
                     </DropdownItem>
                     <DropdownItem>
                       <NavItem>
-                        <NavLink href="/addListing" id="navText">
-                          {/* <span id="navText"> */}
+                        <Link to="/addListing">
+                          <span id="navText">
                             Add a New Listing
-                          {/* </span> */}
-                        </NavLink>
+                          </span>
+                        </Link>
                       </NavItem>
                     </DropdownItem>
                     <DropdownItem>
                       <NavItem>
-                        <NavLink href="/messaging/" id="navText">
-                          {/* <span id="navText"> */}
+                        <Link to="/messaging/">
+                          <span id="navText">
                             Messages
-                          {/* </span> */}
-                        </NavLink>
+                          </span>
+                        </Link>
                       </NavItem>
                     </DropdownItem>
                     <DropdownItem divider />
